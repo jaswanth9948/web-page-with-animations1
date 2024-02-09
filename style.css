@@ -1,0 +1,81 @@
+body{
+    background-image: url(node4.gif);
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px;
+padding: 0PX;
+box-sizing: border-box;
+}
+
+.parentdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-family: sans-serif;
+  
+}
+.childdiv{
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    margin: 50px 20px 0px 20px;
+    border: 3px solid rgb(195, 25, 25);
+    background-color: rgb(33, 134, 168);
+
+}
+.childdiv img{
+  width:150px;
+  border-radius: 50%;
+  position: relative;
+  top:-80px;
+}
+
+.childdiv h1{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-style: bolder;
+    color: azure;
+
+}
+.childdiv p{
+    text-align: left;
+    font-style: bolder;
+    font-size: 15px;
+    font-weight: 50px;
+    color:black;
+    margin: 10px 10px;
+}
+.childdiv input{
+    width: 90%;
+    padding: 2px;
+    border: none;
+    border-bottom: 2px solid rgb(209, 18, 37);
+     background: transparent;
+     font-size: 20px;
+     outline: none;
+    color: blue;
+    margin-bottom: 15px;
+    
+}
+
+.childdiv a{
+    border: 1px solid black;
+    text-decoration: none;
+   background-color: rgb(230, 153, 102);
+font-size:30px;
+padding: 1px;
+width: 70%;
+border-radius: 5px;
+font-family: monospace;
+}
+.childdiv a:hover{
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+.childdiv p:hover{
+    color: black;
+}
